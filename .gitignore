@@ -1,8 +1,11 @@
 # conao3's global .gitignore at
 # http://dotfiles.conao3.com/gitignore
 
-# Flex file
-lex.yy.c
+# Target file
+bison-count
+
+# Flex compiled files
+*.yy.c
 
 # Object files
 *.o
