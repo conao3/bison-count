@@ -5,3 +5,6 @@ bison-count: bison-count.yy.c
 
 %.yy.c:%.l
 	flex -o $@ $<
+
+clean:
+	-git clean -fdx

@@ -9,10 +9,17 @@
 * What is it?
 This is flex-bison practice repository.
 #+BEGIN_SRC shell
-  conao-air bison-count conao/$ flex bison-count.l
-  conao-air bison-count conao/$ gcc lex.yy.c -ll -o bison-count
-  conao-air bison-count conao/$ echo -e 'conao3\nnaoya' | ./bison-count
-  # of lines = 2, # of chars = 13
+  bison-count/ conao$ make
+  flex -o bison-count.yy.c bison-count.l
+  gcc -o bison-count bison-count.yy.c -ll
+  bison-count/ conao$ echo -e 'conao3' | ./bison-count
+  # of lines = 1, # of chars = 7
+  bison-count/ conao$ echo -e 'conao3\n' | ./bison-count
+  # of lines = 2, # of chars = 8
+  bison-count/ conao$ echo -e 'conao3\naaa' | ./bison-count
+  # of lines = 2, # of chars = 11
+  bison-count/ conao$ echo -e 'conao3\naaa\n' | ./bison-count
+  # of lines = 3, # of chars = 12
 #+END_SRC
 * Author
 Naoya Yamashita (conao3)
