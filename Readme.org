@@ -8,6 +8,11 @@
 
 * What is it?
 This is flex-bison practice repository.
-
+#+BEGIN_SRC shell
+  conao-air bison-count conao/$ flex bison-count.l
+  conao-air bison-count conao/$ gcc lex.yy.c -ll -o bison-count
+  conao-air bison-count conao/$ echo -e 'conao3\nnaoya' | ./bison-count
+  # of lines = 2, # of chars = 13
+#+END_SRC
 * Author
 Naoya Yamashita (conao3)
