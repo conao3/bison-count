@@ -1,0 +1,13 @@
+#+author: conao
+#+date: <2018-12-17 Mon>
+
+* bison-count
+[[https://github.com/conao3/bison-count][https://img.shields.io/github/tag/conao3/bison-count.svg?style=flat-square]]
+[[https://travis-ci.org/conao3/bison-count][https://img.shields.io/travis/conao3/bison-count/master.svg?style=flat-square]]
+[[https://github.com/conao3/bison-count][https://img.shields.io/github/license/conao3/bison-count.svg?style=flat-square]]
+
+* What is it?
+This is flex-bison practice repository.
+
+* Author
+Naoya Yamashita (conao3)
