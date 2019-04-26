@@ -1,7 +1,7 @@
 #+author: conao
 #+date: <2018-12-17 Mon>
 
-[[https://github.com/conao3/cwc.y][https://raw.githubusercontent.com/conao3/files/master/header/png/cwc.y.png]]
+[[https://github.com/conao3/cwc.y][https://raw.githubusercontent.com/conao3/files/master/blob/headers/png/cwc.y.png]]
 [[https://github.com/conao3/cwc.y/blob/master/LICENSE][https://img.shields.io/github/license/conao3/cwc.y.svg?style=flat-square]]
 [[https://github.com/conao3/cwc.y/releases][https://img.shields.io/github/tag/conao3/cwc.y.svg?style=flat-square]]
 [[https://travis-ci.org/conao3/cwc.y][https://img.shields.io/travis/conao3/cwc.y/master.svg?style=flat-square]]
@@ -11,7 +11,7 @@
 [[https://join.slack.com/t/conao3-support/shared_invite/enQtNTg2MTY0MjkzOTU0LTFjOTdhOTFiNTM2NmY5YTE5MTNlYzNiOTE2MTZlZWZkNDEzZmRhN2E0NjkwMWViZTZiYjA4MDUxYTUzNDZiNjY][https://img.shields.io/badge/chat-on_slack-blue.svg?logo=slack&style=flat-square]]
 
 * Table of Contents
-- [[#background][Background]]
+- [[#description][Description]]
 - [[#install][Install]]
 - [[#usage][Usage]]
 - [[#information][Information]]
@@ -20,9 +20,9 @@
   - [[#contribute][Contribute]]
   - [[#license][License]]
   - [[#author][Author]]
-  - [[#contributor][Contributor]]
+  - [[#contributors][Contributors]]
 
-* Background
+* Description
 This repository hosting coding contest source files.
 
 * Install
@@ -37,13 +37,16 @@ This is flex-bison practice repository.
   flex -o bison-count.yy.c bison-count.l
   gcc -o bison-count bison-count.yy.c -ll
   bison-count/ conao$ echo -e 'conao3' | ./bison-count
-  # of lines = 1, # of chars = 7
+    > of lines = 1, # of chars = 7
+  
   bison-count/ conao$ echo -e 'conao3\n' | ./bison-count
-  # of lines = 2, # of chars = 8
+    > of lines = 2, # of chars = 8
+  
   bison-count/ conao$ echo -e 'conao3\naaa' | ./bison-count
-  # of lines = 2, # of chars = 11
+    > of lines = 2, # of chars = 11
+  
   bison-count/ conao$ echo -e 'conao3\naaa\n' | ./bison-count
-  # of lines = 3, # of chars = 12
+    > of lines = 3, # of chars = 12
 #+END_SRC
 
 * Information
@@ -73,5 +76,5 @@ Feel free to send PR!
 ** Author
 - Naoya Yamashita ([[https://github.com/conao3][conao3]])
 
-** Contributor
+** Contributors
 - Not yet... Now send PR and add your name!!
